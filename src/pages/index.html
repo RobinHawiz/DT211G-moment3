@@ -22,7 +22,8 @@
   </head>
   <body>
     <header>
-      <h1><a href="." rel="home">Webbutveckling.</a></h1>
+      <h1 class="logo"><a href="." rel="home">Webbutveckling.</a></h1>
+      <!--
       <nav>
         <ul>
           <li><a href="sass">SASS</a></li>
@@ -32,9 +33,60 @@
           <li><a href="#">Inget</a></li>
         </ul>
       </nav>
+      -->
     </header>
     <main id="homepage">
-      <section id="hero"></section>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-img-wrapper">
+            <picture>
+              <source
+                type="image/png"
+                media="(max-width: 800px)"
+                srcset="../assets/single-tower.png?w=272&h600"
+              />
+              <img src="../assets/triple-tower.png?w=1000&h=687" alt="" />
+            </picture>
+          </div>
+          <h2>
+            <div class="span-wrapper">
+              <span class="hero-text-1">Hej</span>
+            </div>
+            <div class="span-wrapper">
+              <span class="hero-text-2">på</span>
+            </div>
+            <div class="span-wrapper">
+              <span class="hero-text-3">dej.</span>
+            </div>
+          </h2>
+          <div class="clouds-img-container">
+            <picture>
+              <source
+                type="image/png"
+                media="(max-width: 800px)"
+                srcset="../assets/cloud.png?w=272&h600"
+              />
+              <img
+                class="cloud cloud-1"
+                src="../assets/cloud.png?w=378&h=250"
+                alt=""
+              />
+            </picture>
+            <picture>
+              <source
+                type="image/png"
+                media="(max-width: 800px)"
+                srcset="../assets/cloud.png?w=272&h600"
+              />
+              <img
+                class="cloud cloud-2"
+                src="../assets/cloud.png?w=378&h=250"
+                alt=""
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

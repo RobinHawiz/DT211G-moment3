@@ -1,16 +1,20 @@
 // Colors
 
 $header-color: rgb(33, 33, 33);
+$hero-color: white;
 
 // Shadows
 
+$hero-text-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px;
+
 // Font-sizes
 
-$h1-font: 3rem;
+$h1-font: 2.7rem;
+$h2-font: 4rem;
 $nav-font: 2.5rem;
 
 // Breakpoints
 
 $breakpoints: (
-  mobile: 48rem,
+  mobile: 800px,
 );

@@ -6,11 +6,22 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow: hidden;
+}
+
 header {
   min-height: 10vh;
   padding: 1rem;
   @include m.flex(center, center, row);
   gap: 5rem;
+  h1 {
+    overflow: hidden;
+    .letter {
+      position: relative;
+      bottom: -4rem;
+    }
+  }
   ul {
     @include m.flex(center, center, row);
     list-style-type: none;
