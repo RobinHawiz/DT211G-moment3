@@ -25,9 +25,15 @@
   justify-content: $justify;
 }
 
-@mixin media-query($key) {
+@mixin media-query($key, $max-height: null) {
   $size: map.get(v.$breakpoints, $key);
-  @media screen and (max-width: $size) {
-    @content;
+  @if $max-height == null {
+    @media screen and (max-width: $size) {
+      @content;
+    }
+  } @else {
+    @media screen and (max-width: $size) and (max-height: $max-height) {
+      @content;
+    }
   }
 }
