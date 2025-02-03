@@ -21,9 +21,18 @@
     .hero-img-wrapper {
       max-width: 100rem;
       height: 68.7rem;
-      @include m.media-query(mobile) {
+      margin: 0 5%;
+      // We load in a smaller image when max-height: 650px, so we want the wrapper width to match the loaded image width
+      @include m.media-query(mobile, 650px) {
         max-width: 27.2rem;
         height: 80vh;
+        margin: 0;
+      }
+      // We load in a bigger image if the screen height is bigger than 650px, so again we want the wrapper width to match the loaded image width
+      @include m.media-query(mobile) {
+        max-width: 36.2rem;
+        height: 80vh;
+        margin: 0;
       }
     }
     h2 {
