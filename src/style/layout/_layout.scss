@@ -1,0 +1,19 @@
+@use "../abstracts/mixins" as m;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 10vh;
+  padding: 1rem;
+  @include m.flex(center, center, row);
+  gap: 5rem;
+  ul {
+    @include m.flex(center, center, row);
+    list-style-type: none;
+    gap: 2rem;
+  }
+}

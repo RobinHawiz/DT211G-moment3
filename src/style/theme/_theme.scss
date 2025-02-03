@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as v;
+
+h1 {
+  color: v.$header-color;
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: inherit;
+  }
+}
+
+nav {
+  @extend h1;
+  a {
+    color: inherit;
+  }
+}
