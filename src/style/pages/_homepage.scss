@@ -69,15 +69,15 @@
       animation: 0.3s ease 3s forwards hero-text-3-animation;
     }
     .clouds-img-container {
-      width: 37.4rem;
-      height: 25rem;
+      width: 37.8rem;
+      height: 25.3rem;
       position: absolute;
       top: 0;
       right: -10rem;
       pointer-events: none;
       @include m.media-query(mobile) {
-        width: 22.4rem;
-        height: 15rem;
+        width: 27.2rem;
+        height: 18.2rem;
         top: 3rem;
       }
     }
@@ -180,7 +180,7 @@
     opacity: 0;
   }
   to {
-    opacity: 0.6;
+    opacity: 0.5;
   }
 }
 
