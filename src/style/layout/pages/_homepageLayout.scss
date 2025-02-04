@@ -2,8 +2,8 @@
 @use "../../abstracts/mixins" as m;
 
 #homepage {
-  overflow: hidden;
   #hero {
+    @include m.flex(center, center, column);
     margin: 0 5%;
     scale: 1.25;
     animation: 2s ease 0.35s forwards hero-animation;
