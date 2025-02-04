@@ -1,13 +1,16 @@
 const logo = document.querySelector(".logo a");
 const letters = logo.textContent.split("");
+const jeMapelleLines = document.querySelectorAll(".je-mappelle-hamburger span");
 
 var path = window.location.pathname;
 var page = path.split("/").slice(-2)[0];
 
 if (page === "sass") {
   logoAnimation(0);
+  jeMapelleLinesAnimation(0.5);
 } else {
   logoAnimation(2);
+  jeMapelleLinesAnimation(2.5);
 }
 
 function logoAnimation(delay) {
@@ -18,4 +21,9 @@ function logoAnimation(delay) {
       delay + i / 30
     }s forwards logo-animation`;
   }
+}
+
+function jeMapelleLinesAnimation(delay) {
+  jeMapelleLines[0].style.animation = `0.5s ease ${delay}s forwards hamburger-span-1-animation`;
+  jeMapelleLines[1].style.animation = `0.5s ease ${delay}s forwards hamburger-span-2-animation`;
 }

@@ -1,3 +1,3 @@
 import "../style/style.scss";
-require("./logoAnimation");
+require("./headerAnimation");
 require("./hamburger");

@@ -12,11 +12,9 @@ button.je-mappelle-hamburger {
     position: relative;
     &:nth-child(1) {
       left: -3rem;
-      animation: 0.5s ease 2.5s forwards hamburger-span-1-animation;
     }
     &:nth-child(2) {
       right: -3rem;
-      animation: 0.5s ease 2.5s forwards hamburger-span-2-animation;
     }
     &.toggle:nth-child(1) {
       transform: rotate(45deg) translateY(0.5rem);
