@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
 @use "sass:color";
 
 header {
@@ -26,4 +27,10 @@ nav {
     }
   }
   background-color: v.$light-background-color;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    @include m.dark-mode;
+  }
 }

@@ -1,5 +1,6 @@
 @use "variables" as v;
 @use "sass:map";
+@use "sass:color";
 
 @mixin flex($align, $justify, $direction) {
   display: flex;
@@ -35,5 +36,36 @@
     @media screen and (max-width: $size) and (max-height: $max-height) {
       @content;
     }
+  }
+}
+
+@mixin dark-mode {
+  background-color: v.$background-dark-theme-color;
+  header {
+    h1 {
+      a {
+        color: v.$header-dark-theme-color;
+      }
+    }
+    button.je-mappelle-hamburger {
+      .line {
+        background-color: v.$header-dark-theme-color;
+      }
+    }
+  }
+  nav {
+    a {
+      color: inherit;
+      &:hover {
+        color: color.change(v.$hero-dark-theme-color, $lightness: 60%);
+      }
+    }
+    background-color: v.$background-dark-theme-color;
+  }
+  h1 {
+    color: v.$h1-dark-theme-color;
+  }
+  p {
+    color: v.$p-dark-theme-color;
   }
 }
