@@ -10,6 +10,13 @@ header {
       color: inherit;
     }
   }
+  button.je-mappelle-hamburger {
+    background: none;
+    border: none;
+    .line {
+      background-color: v.$header-color;
+    }
+  }
 }
 
 nav {
@@ -17,4 +24,5 @@ nav {
   a {
     color: inherit;
   }
+  background-color: v.$light-background-color;
 }

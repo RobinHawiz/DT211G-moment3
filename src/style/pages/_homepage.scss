@@ -2,9 +2,9 @@
 @use "../abstracts/mixins" as m;
 
 #homepage {
+  overflow: hidden;
   #hero {
     @include m.flex(center, center, column);
-    overflow: hidden;
     min-height: 90vh;
     padding-top: 5rem;
     scale: 1.25;

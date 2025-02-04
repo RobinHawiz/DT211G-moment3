@@ -15,16 +15,15 @@ header {
   padding: 1rem;
   @include m.flex(center, center, row);
   gap: 5rem;
+  @include m.media-query(mobile) {
+    gap: 3rem;
+  }
   h1 {
     overflow: hidden;
+    z-index: 2;
     .letter {
       position: relative;
       bottom: -4rem;
     }
-  }
-  ul {
-    @include m.flex(center, center, row);
-    list-style-type: none;
-    gap: 2rem;
   }
 }
