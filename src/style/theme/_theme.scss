@@ -1,13 +1,11 @@
 @use "../abstracts/variables" as v;
+@use "sass:color";
 
 header {
   h1 {
-    color: v.$header-color;
     a {
+      color: v.$header-color;
       text-decoration: none;
-    }
-    a:visited {
-      color: inherit;
     }
   }
   button.je-mappelle-hamburger {
@@ -23,6 +21,9 @@ nav {
   @extend h1;
   a {
     color: inherit;
+    &:hover {
+      color: color.change(v.$hero-color, $lightness: 60%);
+    }
   }
   background-color: v.$light-background-color;
 }

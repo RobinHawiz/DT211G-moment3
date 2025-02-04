@@ -27,3 +27,9 @@ header {
     }
   }
 }
+
+main {
+  @include m.flex(center, center, column);
+  min-height: 90vh;
+  padding-top: 5rem;
+}
