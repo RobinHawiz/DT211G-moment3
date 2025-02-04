@@ -1,11 +1,10 @@
 // base
 @use "base/typography";
-// Components
-@use "components/hamburger";
-@use "components/navigation";
 // layout
 @use "layout/layout";
-// pages
-@use "pages/homepage";
+@use "layout/pages/homepageLayout";
+@use "layout/components/hamburger";
+@use "layout/components/navigation";
 // theme
 @use "theme/theme";
+@use "theme/pages/homepageTheme";

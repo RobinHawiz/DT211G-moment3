@@ -1,5 +1,5 @@
-@use "../abstracts/variables" as v;
-@use "../abstracts/mixins" as m;
+@use "../../abstracts/variables" as v;
+@use "../../abstracts/mixins" as m;
 
 #homepage {
   overflow: hidden;
@@ -39,7 +39,6 @@
       @include m.flex(center, center, row);
       gap: calc(5vw + 20rem);
       width: 100%;
-      color: v.$hero-color;
       position: absolute;
       top: 50%;
       left: 50%;

@@ -1,0 +1,9 @@
+@use "../../abstracts/variables" as v;
+
+#homepage {
+  #hero {
+    h2 {
+      color: v.$hero-color;
+    }
+  }
+}
