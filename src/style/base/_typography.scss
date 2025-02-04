@@ -11,6 +11,13 @@ body {
 
 h1 {
   font-size: v.$h1-font;
+  @include m.media-query(mobile) {
+    font-size: v.$h1-mobile-font;
+  }
+}
+
+h1.logo {
+  font-size: v.$h1-logo-font;
 }
 
 h2 {
@@ -19,4 +26,15 @@ h2 {
 
 nav {
   font-size: v.$nav-font;
+}
+
+p {
+  font-size: v.$p-font;
+  @include m.media-query(mobile) {
+    font-size: v.$p-mobile-font;
+  }
+}
+
+.bold {
+  font-weight: 700;
 }

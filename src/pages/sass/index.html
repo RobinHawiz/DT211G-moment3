@@ -45,6 +45,37 @@
     <main id="sass">
       <section id="info">
         <h1>Sass</h1>
+        <p>
+          Jag har använt mig av SASS tidigare men visste inte hur kraftfull
+          denna preprocessor var förrän nu. Förutom det som du bad oss att
+          implementera så har SASS många fler funktionaliteter som är rätt så
+          användbara, som ex maps (fungerar typ som js objekt) där du kan skapa
+          ett flertal nycklar med olika värden.
+        </p>
+        <p>
+          <br />
+          Fördelarna av att använda SASS är många och jag ser inte riktigt vad
+          dess nackdelar är, förutom att djupare nesting ger högre
+          prioritetsvärde. Så ex main{h1{color:blue}} har högre prioritet än
+          h1{color:red} och om man inte har detta i åtanke så kan det leda till
+          en del frustration, då man förväntar sig att en ändring ska ske men
+          som aldrig görs pga olika prioritetsnivåer. Dock är detta enbart en
+          nackdel om man inte känner till detta. Men även om man känner till
+          detta så måste man vara försiktig med hur djupt man nestar, då om man
+          vill göra en ändring på samma element någon annan stans i koden (ex i
+          en media query) så måste man nesta lika djupt, oavsett hur liten
+          ändringen man vill göra är. Ex om du har:
+          main{section{article{div{h3}}}} så måste du nesta lika mycket även om
+          du bara vill ändra färgen på h3 elementet... men detta är enbart en
+          nackdel om man överdriver med hur djupt man nestar.
+        </p>
+        <p>
+          <br />
+          <span class="bold">Sammanfattning</span>: Sass är en kraftfull
+          preprocessor som har många fördelar, vars nackdelar beror helt på hur
+          individen använder sig av verktyget och inte på hur verktyget
+          fungerar.
+        </p>
       </section>
     </main>
   </body>
