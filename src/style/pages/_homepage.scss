@@ -85,18 +85,20 @@
       position: absolute;
       top: 0;
       right: 0;
+      opacity: 0;
     }
     .cloud-1 {
       top: -5rem;
       right: 0;
-      animation: 3s ease-in-out 0.35s infinite alternate cloud-1-animation;
+      animation: 2s ease 1.7s forwards cloud-fadeIn-1-animation,
+        3s ease-in-out 0.35s infinite alternate cloud-1-animation;
     }
     .cloud-2 {
       top: -10rem;
       right: 10rem;
-      opacity: 0.6;
       z-index: -1;
-      animation: 3s ease-in-out 0.85s infinite alternate cloud-2-animation;
+      animation: 2s ease 1.7s forwards cloud-fadeIn-2-animation,
+        3s ease-in-out 0.85s infinite alternate cloud-2-animation;
     }
   }
 }
@@ -161,6 +163,24 @@
   }
   to {
     right: 0;
+  }
+}
+
+@keyframes cloud-fadeIn-1-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cloud-fadeIn-2-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.6;
   }
 }
 
