@@ -7,6 +7,12 @@ header {
     a {
       color: v.$header-color;
       text-decoration: none;
+      transition: color 1s ease;
+    }
+    &.nav-opened {
+      a {
+        color: v.$header-dark-theme-color;
+      }
     }
   }
   button.je-mappelle-hamburger {
@@ -14,21 +20,23 @@ header {
     border: none;
     .line {
       background-color: v.$header-color;
+      &.toggle {
+        background-color: v.$header-dark-theme-color;
+      }
     }
   }
 }
 
 nav {
-  @extend h1;
+  background-color: v.$background-dark-theme-color;
   a {
-    color: inherit;
+    color: v.$header-dark-theme-color;
+    text-decoration: none;
     &:hover {
-      color: color.change(v.$hero-color, $lightness: 60%);
+      color: color.change(v.$header-dark-theme-color, $lightness: 60%);
     }
   }
-  background-color: v.$light-background-color;
 }
-
 @media (prefers-color-scheme: dark) {
   body {
     @include m.dark-mode;

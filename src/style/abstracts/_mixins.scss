@@ -46,22 +46,32 @@
       a {
         color: v.$header-dark-theme-color;
       }
+      &.nav-opened {
+        a {
+          color: v.$header-color;
+        }
+      }
     }
     button.je-mappelle-hamburger {
       .line {
         background-color: v.$header-dark-theme-color;
+        &.toggle {
+          background-color: v.$header-color;
+        }
       }
     }
   }
+
   nav {
+    background-color: v.$light-background-color;
     a {
-      color: inherit;
+      color: v.$header-color;
       &:hover {
-        color: color.change(v.$hero-dark-theme-color, $lightness: 60%);
+        color: color.change(v.$header-color, $lightness: 60%);
       }
     }
-    background-color: v.$background-dark-theme-color;
   }
+
   h1 {
     color: v.$h1-dark-theme-color;
   }

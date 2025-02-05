@@ -1,5 +1,5 @@
 button.je-mappelle-hamburger {
-  height: 2.3rem;
+  height: 2.4rem;
   cursor: pointer;
   overflow: hidden;
   z-index: 2;
@@ -8,7 +8,7 @@ button.je-mappelle-hamburger {
     height: 0.2rem;
     margin: 0.4rem 0;
     display: block;
-    transition: all 0.5s;
+    transition: all 0.5s ease;
     position: relative;
     &:nth-child(1) {
       left: -3rem;
