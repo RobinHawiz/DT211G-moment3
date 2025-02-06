@@ -5,12 +5,12 @@ const jeMapelleLines = document.querySelectorAll(".je-mappelle-hamburger span");
 var path = window.location.pathname;
 var page = path.split("/").slice(-2)[0];
 
-if (page === "sass") {
-  logoAnimation(0);
-  jeMapelleLinesAnimation(0.5);
-} else {
+if (page === "DT211G-moment3") {
   logoAnimation(2);
   jeMapelleLinesAnimation(2.5);
+} else {
+  logoAnimation(0);
+  jeMapelleLinesAnimation(0.5);
 }
 
 function logoAnimation(delay) {
