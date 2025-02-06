@@ -1,5 +1,5 @@
 const { populateHtmlPlugins } = require("../utils/multipage.js");
-const pages = populateHtmlPlugins(["index", "sass"]);
+const pages = populateHtmlPlugins(["index", "sass", "diagram"]);
 const path = require("path");
 const BundleAnalyzerPlugin =
   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
