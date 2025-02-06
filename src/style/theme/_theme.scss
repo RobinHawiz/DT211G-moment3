@@ -37,6 +37,13 @@ nav {
     }
   }
 }
+#homepage {
+  #hero {
+    h2 {
+      color: v.$hero-color;
+    }
+  }
+}
 @media (prefers-color-scheme: dark) {
   body {
     @include m.dark-mode;

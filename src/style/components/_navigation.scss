@@ -1,4 +1,4 @@
-@use "../../abstracts/mixins" as m;
+@use "../abstracts/mixins" as m;
 
 nav {
   @include m.flex(normal, center, column);
