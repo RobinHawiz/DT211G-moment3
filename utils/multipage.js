@@ -1,10 +1,11 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const generateHtmlPlugin = (pageName) => {
+const generateHtmlPlugin = (pageName, chunks) => {
   if (pageName == "index") {
     return new HtmlWebpackPlugin({
       title: pageName,
       filename: `index.html`,
+      chunks,
       template: `./src/pages/index.html`,
       scriptLoading: "blocking",
       inject: "body",
@@ -17,6 +18,7 @@ const generateHtmlPlugin = (pageName) => {
     return new HtmlWebpackPlugin({
       title: pageName,
       filename: `${pageName}/index.html`,
+      chunks,
       template: `./src/pages/${pageName}/index.html`,
       scriptLoading: "blocking",
       inject: "body",
@@ -24,11 +26,11 @@ const generateHtmlPlugin = (pageName) => {
   }
 };
 
-const populateHtmlPlugins = (pageNames) => {
+const populateHtmlPlugins = (pageObject) => {
   let output = [];
-  pageNames.forEach((pageName) => {
-    output.push(generateHtmlPlugin(pageName));
-  });
+  for (const [pageName, chunks] of Object.entries(pageObject)) {
+    output.push(generateHtmlPlugin(pageName, chunks.toString()));
+  }
   return output;
 };
 

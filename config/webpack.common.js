@@ -1,5 +1,9 @@
 const { populateHtmlPlugins } = require("../utils/multipage.js");
-const pages = populateHtmlPlugins(["index", "sass", "diagram"]);
+const pages = populateHtmlPlugins({
+  index: ["index"],
+  sass: ["index"],
+  diagram: ["index", "displayData"],
+});
 const path = require("path");
 const BundleAnalyzerPlugin =
   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
@@ -7,6 +11,7 @@ const BundleAnalyzerPlugin =
 module.exports = {
   entry: {
     bundle: path.resolve(__dirname, "../src/js/index.js"),
+    chart: path.resolve(__dirname, "../src/js/displayData.js"),
   },
   output: {
     assetModuleFilename: "img/[name][contenthash][ext][query]",
