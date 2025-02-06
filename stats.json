@@ -1,14 +1,14 @@
 {
-  "hash": "3e255cb2ebdc105bd5ad",
+  "hash": "859fecd6bf8b73c777fe",
   "version": "5.97.1",
-  "time": 5733,
-  "builtAt": 1738861632213,
+  "time": 6132,
+  "builtAt": 1738861858938,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
   "assetsByChunkName": {
     "bundle": [
       "style/bundle.40bad2d3b705581b2db5.css",
-      "js/bundle.60c27e5d492a5842e01e.js"
+      "js/bundle.3cd8b1cfa7a135bc050c.js"
     ],
     "chart": [
       "js/chart.4d90f57992c49eb08620.js"
@@ -471,17 +471,17 @@
     },
     {
       "type": "asset",
-      "name": "js/bundle.60c27e5d492a5842e01e.js",
-      "size": 2553,
+      "name": "js/bundle.3cd8b1cfa7a135bc050c.js",
+      "size": 2563,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "60c27e5d492a5842e01e",
+        "contenthash": "3cd8b1cfa7a135bc050c",
         "javascriptModule": false,
         "minimized": true,
-        "size": 2553
+        "size": 2563
       },
       "chunkNames": [
         "bundle"
@@ -522,9 +522,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 13179,
+      "size": 13189,
       "sizes": {
-        "javascript": 3917,
+        "javascript": 3927,
         "css/mini-extract": 9262
       },
       "names": [
@@ -536,10 +536,10 @@
       ],
       "files": [
         "style/bundle.40bad2d3b705581b2db5.css",
-        "js/bundle.60c27e5d492a5842e01e.js"
+        "js/bundle.3cd8b1cfa7a135bc050c.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "38d393581c0ce2067205",
+      "hash": "2272d03dba7e6f65d5ce",
       "childrenByOrder": {},
       "id": 23,
       "siblings": [],
@@ -615,9 +615,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 985,
+          "size": 995,
           "sizes": {
-            "javascript": 985
+            "javascript": 995
           },
           "built": true,
           "codeGenerated": true,
@@ -1203,9 +1203,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 985,
+      "size": 995,
       "sizes": {
-        "javascript": 985
+        "javascript": 995
       },
       "built": true,
       "codeGenerated": true,
@@ -2046,12 +2046,12 @@
           "size": 9263
         },
         {
-          "name": "js/bundle.60c27e5d492a5842e01e.js",
-          "size": 2553
+          "name": "js/bundle.3cd8b1cfa7a135bc050c.js",
+          "size": 2563
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 11816,
+      "assetsSize": 11826,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2092,12 +2092,12 @@
           "size": 9263
         },
         {
-          "name": "js/bundle.60c27e5d492a5842e01e.js",
-          "size": 2553
+          "name": "js/bundle.3cd8b1cfa7a135bc050c.js",
+          "size": 2563
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 11816,
+      "assetsSize": 11826,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2144,8 +2144,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "94c673458c4600fecf0c",
       "version": "5.97.1",
-      "time": 5255,
-      "builtAt": 1738861631761,
+      "time": 5634,
+      "builtAt": 1738861858465,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
       "assetsByChunkName": {},
