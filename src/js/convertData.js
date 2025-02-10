@@ -1,8 +1,15 @@
-export function convertData(data) {
-  let output = [];
+export function convertMiunStatsData(data) {
+  let dataArrCourses = [];
+  let dataArrPrograms = [];
   data.forEach((obj) => {
-    // We convert objects into arrays in order to be able to utilize array methods later on.
-    output.push([...Object.values(obj)]);
+    if (obj["type"] === "Kurs") {
+      // We convert objects into arrays in order to be able to utilize array methods later on.
+      dataArrCourses.push([...Object.values(obj)]);
+    }
+    // object[type] === "Program", probably...
+    else {
+      dataArrPrograms.push([...Object.values(obj)]);
+    }
   });
-  return output;
+  return { dataArrCourses, dataArrPrograms };
 }
