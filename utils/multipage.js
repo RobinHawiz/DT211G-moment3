@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const generateHtmlPlugin = (pageName, chunks) => {
   if (pageName == "index") {
+    console.log(chunks);
     return new HtmlWebpackPlugin({
       title: pageName,
       filename: `index.html`,
@@ -29,7 +30,7 @@ const generateHtmlPlugin = (pageName, chunks) => {
 const populateHtmlPlugins = (pageObject) => {
   let output = [];
   for (const [pageName, chunks] of Object.entries(pageObject)) {
-    output.push(generateHtmlPlugin(pageName, chunks.toString()));
+    output.push(generateHtmlPlugin(pageName, chunks));
   }
   return output;
 };

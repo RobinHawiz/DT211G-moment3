@@ -1,8 +1,8 @@
 const { populateHtmlPlugins } = require("../utils/multipage.js");
 const pages = populateHtmlPlugins({
-  index: ["index"],
-  sass: ["index"],
-  diagram: ["index", "displayData"],
+  index: ["main"],
+  sass: ["main"],
+  diagram: ["main", "chart"],
 });
 const path = require("path");
 const BundleAnalyzerPlugin =
@@ -10,7 +10,7 @@ const BundleAnalyzerPlugin =
 
 module.exports = {
   entry: {
-    bundle: path.resolve(__dirname, "../src/js/index.js"),
+    main: path.resolve(__dirname, "../src/js/index.js"),
     chart: path.resolve(__dirname, "../src/js/displayData.js"),
   },
   output: {
