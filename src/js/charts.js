@@ -1,4 +1,25 @@
-import Chart from "chart.js/auto";
+import {
+  Chart,
+  BarController,
+  BarElement,
+  PieController,
+  ArcElement,
+  CategoryScale,
+  LinearScale,
+  Tooltip,
+  Legend,
+} from "chart.js";
+
+Chart.register(
+  BarController,
+  BarElement,
+  PieController,
+  ArcElement,
+  CategoryScale,
+  LinearScale,
+  Tooltip,
+  Legend
+);
 const backgroundColors = [
   "rgba(255, 99, 132, 0.2)",
   "rgba(255, 159, 64, 0.2)",
