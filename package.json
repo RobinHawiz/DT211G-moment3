@@ -12,7 +12,7 @@
     "doc": "jsdoc -c jsdoc.json",
     "terminate": "kill -9 $(lsof -t -i:8081)",
     "analyze": "webpack-bundle-analyzer --port 4200 dist/stats.json",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist && rm -rf jsdoc"
   },
   "keywords": [],
   "author": "",
