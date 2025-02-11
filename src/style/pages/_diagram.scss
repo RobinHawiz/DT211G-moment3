@@ -2,4 +2,11 @@
   max-width: 125rem;
   margin: 0 auto;
   text-align: center;
+  #bar-chart,
+  #pie-chart {
+    margin: 2rem 0;
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
 }

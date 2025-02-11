@@ -1,6 +1,13 @@
-.chart-container.bar-chart {
+.chart-container {
   position: relative;
   max-width: 125rem;
   min-height: 50vh;
-  margin: 0 1rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.chart-container.pie-chart {
+  @extend .chart-container;
+  max-width: 60rem;
+  height: 10rem;
 }

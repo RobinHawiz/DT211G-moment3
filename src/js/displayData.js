@@ -1,12 +1,15 @@
 const { fetchData } = require("./fetchData");
 const { convertMiunStatsData } = require("./convertData");
 const { sortMiunStatsData } = require("./sortData");
-const { createBarChart } = require("./charts");
+const { createBarChart, createPieChart } = require("./charts");
 
 // Charts we want to display
 
 const barChartTopSixCourses = document.getElementById(
   "top-six-courses-bar-chart"
+);
+const pieChartTopFivePrograms = document.getElementById(
+  "top-five-programs-pie-chart"
 );
 
 async function displayData(url) {
@@ -22,6 +25,7 @@ async function displayData(url) {
   const topFivePrograms = dataArrPrograms.slice(0, 5);
   // Create charts
   createBarChart(topSixCourses, "Antal sökande", barChartTopSixCourses);
+  createPieChart(topFivePrograms, "Antal sökande", pieChartTopFivePrograms);
 }
 
 displayData("https://studenter.miun.se/~mallar/dt211g/");
