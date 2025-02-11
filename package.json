@@ -9,6 +9,7 @@
     "serve-build": "webpack serve --config config/webpack.prod.js",
     "serve-dev": "webpack serve --config config/webpack.dev.js",
     "deploy": "gh-pages -d dist",
+    "doc": "jsdoc -c jsdoc.json",
     "terminate": "kill -9 $(lsof -t -i:8081)",
     "analyze": "webpack-bundle-analyzer --port 4200 dist/stats.json",
     "clean": "rm -rf dist"
