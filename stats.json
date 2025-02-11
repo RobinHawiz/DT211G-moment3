@@ -1,17 +1,17 @@
 {
-  "hash": "2de16e164b444865315e",
+  "hash": "06dec9d73eab344a88f8",
   "version": "5.97.1",
-  "time": 8721,
-  "builtAt": 1739211302640,
+  "time": 7971,
+  "builtAt": 1739273292312,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
   "assetsByChunkName": {
     "bundle": [
-      "style/bundle.33c6dfdecf948326cdd7.css",
+      "style/bundle.a714e138f163c8e003c3.css",
       "js/bundle.3cd8b1cfa7a135bc050c.js"
     ],
     "chart": [
-      "js/chart.49e3fd3cceda1b2d38f5.js"
+      "js/chart.95d41c8b3d5542a09de0.js"
     ]
   },
   "assets": [
@@ -73,17 +73,17 @@
     },
     {
       "type": "asset",
-      "name": "js/chart.49e3fd3cceda1b2d38f5.js",
-      "size": 221008,
+      "name": "js/chart.95d41c8b3d5542a09de0.js",
+      "size": 221899,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "49e3fd3cceda1b2d38f5",
+        "contenthash": "95d41c8b3d5542a09de0",
         "javascriptModule": false,
         "minimized": true,
-        "size": 221008
+        "size": 221899
       },
       "chunkNames": [
         "chart"
@@ -352,15 +352,15 @@
     },
     {
       "type": "asset",
-      "name": "style/bundle.33c6dfdecf948326cdd7.css",
-      "size": 9341,
+      "name": "style/bundle.a714e138f163c8e003c3.css",
+      "size": 9585,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "33c6dfdecf948326cdd7",
-        "size": 9341
+        "contenthash": "a714e138f163c8e003c3",
+        "size": 9585
       },
       "chunkNames": [
         "bundle"
@@ -499,12 +499,12 @@
     {
       "type": "asset",
       "name": "diagram/index.html",
-      "size": 1454,
+      "size": 1512,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1454
+        "size": 1512
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -522,10 +522,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 13267,
+      "size": 13511,
       "sizes": {
         "javascript": 3927,
-        "css/mini-extract": 9340
+        "css/mini-extract": 9584
       },
       "names": [
         "bundle"
@@ -535,11 +535,11 @@
         "bundle"
       ],
       "files": [
-        "style/bundle.33c6dfdecf948326cdd7.css",
+        "style/bundle.a714e138f163c8e003c3.css",
         "js/bundle.3cd8b1cfa7a135bc050c.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "3eedfa41b48ca61fd00b",
+      "hash": "dc41ffdd0354adaecd30",
       "childrenByOrder": {},
       "id": 23,
       "siblings": [],
@@ -737,9 +737,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 9340,
+          "size": 9584,
           "sizes": {
-            "css/mini-extract": 9340
+            "css/mini-extract": 9584
           },
           "built": true,
           "codeGenerated": true,
@@ -817,9 +817,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 537411,
+      "size": 539467,
       "sizes": {
-        "javascript": 536716,
+        "javascript": 538772,
         "runtime": 695
       },
       "names": [
@@ -830,10 +830,10 @@
         "chart"
       ],
       "files": [
-        "js/chart.49e3fd3cceda1b2d38f5.js"
+        "js/chart.95d41c8b3d5542a09de0.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0b4663ca2ef14eadd5fb",
+      "hash": "8212da67cf1b5009c18e",
       "childrenByOrder": {},
       "id": 65,
       "siblings": [],
@@ -842,160 +842,108 @@
       "modules": [
         {
           "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 1659,
-          "sizes": {
-            "javascript": 1659
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
-          "name": "./src/js/convertData.js",
-          "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
-          "index": 10,
-          "preOrderIndex": 10,
-          "index2": 9,
-          "postOrderIndex": 9,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "issuerName": "./src/js/displayData.js",
-          "issuerPath": [
-            {
-              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "name": "./src/js/displayData.js",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 631,
-          "issuerId": null,
-          "chunks": [
-            65
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-              "module": "./src/js/displayData.js + 4 modules",
-              "moduleName": "./src/js/displayData.js + 4 modules",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "resolvedModule": "./src/js/displayData.js",
-              "type": "cjs require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./convertData",
-              "loc": "8:16-40",
-              "moduleId": 685,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": true,
-          "providedExports": [
-            "convertMiunStatsData"
-          ],
-          "optimizationBailout": [],
-          "depth": 1
-        },
-        {
-          "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 524098,
+          "size": 514233,
           "sizes": {
-            "javascript": 524098
+            "javascript": 514233
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-          "name": "./src/js/displayData.js + 4 modules",
-          "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "index": 4,
-          "preOrderIndex": 4,
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js|efbd22d855a49a568a84f54e8190f723",
+          "name": "./src/js/charts.js + 4 modules",
+          "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "index": 8,
+          "preOrderIndex": 8,
           "index2": 11,
           "postOrderIndex": 11,
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "dependent": false,
+          "dependent": true,
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 685,
+          "id": 133,
           "chunks": [
             65
           ],
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
+              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "module": "./src/js/displayData.js",
+              "moduleName": "./src/js/displayData.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "resolvedModule": "./src/js/displayData.js",
+              "type": "cjs require",
               "active": true,
               "explanation": "",
-              "userRequest": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "loc": "chart",
-              "moduleId": null,
-              "resolvedModuleId": null
+              "userRequest": "./charts",
+              "loc": "11:16-35",
+              "moduleId": 334,
+              "resolvedModuleId": 334
             }
           ],
-          "usedExports": [],
-          "providedExports": [],
+          "usedExports": true,
+          "providedExports": [
+            "createBarChart",
+            "createPieChart"
+          ],
           "optimizationBailout": [],
-          "depth": 0,
+          "depth": 1,
           "modules": [
             {
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 13401,
+              "size": 3536,
               "sizes": {
-                "javascript": 13401
+                "javascript": 3536
               },
               "built": true,
               "codeGenerated": false,
               "buildTimeExecuted": false,
               "cached": false,
-              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "name": "./src/js/displayData.js",
-              "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "index": 4,
-              "preOrderIndex": 4,
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "name": "./src/js/charts.js",
+              "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "index": 8,
+              "preOrderIndex": 8,
               "index2": 11,
               "postOrderIndex": 11,
               "cacheable": true,
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
+              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "issuerName": "./src/js/displayData.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+                  "name": "./src/js/displayData.js",
+                  "id": 334
+                }
+              ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": null,
-              "issuerId": null,
+              "issuerId": 334,
               "chunks": [],
               "assets": [],
               "reasons": [],
-              "usedExports": [],
-              "providedExports": [],
-              "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 6:0-7:33"
+              "usedExports": true,
+              "providedExports": [
+                "createBarChart",
+                "createPieChart"
               ],
-              "depth": 0
+              "optimizationBailout": [
+                "Dependency (harmony side effect evaluation) with side effects at 1:0-34"
+              ],
+              "depth": 1
             },
             {
               "type": "module",
@@ -1012,20 +960,25 @@
               "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
               "name": "./node_modules/chart.js/auto/auto.js",
               "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
-              "index": 5,
-              "preOrderIndex": 5,
-              "index2": 7,
-              "postOrderIndex": 7,
+              "index": 9,
+              "preOrderIndex": 9,
+              "index2": 10,
+              "postOrderIndex": 10,
               "cacheable": true,
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "issuerName": "./src/js/displayData.js",
+              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "issuerName": "./src/js/charts.js",
               "issuerPath": [
                 {
                   "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
                   "name": "./src/js/displayData.js",
+                  "id": 334
+                },
+                {
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "name": "./src/js/charts.js",
                   "id": null
                 }
               ],
@@ -1038,30 +991,44 @@
               "assets": [],
               "reasons": [
                 {
-                  "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-                  "module": "./src/js/displayData.js",
-                  "moduleName": "./src/js/displayData.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-                  "resolvedModule": "./src/js/displayData.js",
+                  "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "module": "./src/js/charts.js",
+                  "moduleName": "./src/js/charts.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "resolvedModule": "./src/js/charts.js",
                   "type": "harmony side effect evaluation",
                   "active": true,
                   "explanation": "",
                   "userRequest": "chart.js/auto",
-                  "loc": "5:0-34",
+                  "loc": "1:0-34",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
                 {
-                  "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-                  "module": "./src/js/displayData.js",
-                  "moduleName": "./src/js/displayData.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-                  "resolvedModule": "./src/js/displayData.js",
+                  "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "module": "./src/js/charts.js",
+                  "moduleName": "./src/js/charts.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "resolvedModule": "./src/js/charts.js",
                   "type": "harmony import specifier",
                   "active": true,
                   "explanation": "",
                   "userRequest": "chart.js/auto",
-                  "loc": "43:6-11",
+                  "loc": "28:6-11",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "module": "./src/js/charts.js",
+                  "moduleName": "./src/js/charts.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "resolvedModule": "./src/js/charts.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "chart.js/auto",
+                  "loc": "84:6-11",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -1122,7 +1089,7 @@
               "optimizationBailout": [
                 "Statement (ExpressionStatement) with side effects in source code at 3:0-33"
               ],
-              "depth": 1
+              "depth": 2
             },
             {
               "type": "module",
@@ -1139,10 +1106,10 @@
               "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chart.js",
               "name": "./node_modules/chart.js/dist/chart.js",
               "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chart.js",
-              "index": 6,
-              "preOrderIndex": 6,
-              "index2": 6,
-              "postOrderIndex": 6,
+              "index": 10,
+              "preOrderIndex": 10,
+              "index2": 9,
+              "postOrderIndex": 9,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -1153,6 +1120,11 @@
                 {
                   "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
                   "name": "./src/js/displayData.js",
+                  "id": 334
+                },
+                {
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "name": "./src/js/charts.js",
                   "id": null
                 },
                 {
@@ -1310,7 +1282,7 @@
               "optimizationBailout": [
                 "Statement (VariableDeclaration) with side effects in source code at 145:0-46"
               ],
-              "depth": 2
+              "depth": 3
             },
             {
               "type": "module",
@@ -1327,10 +1299,10 @@
               "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chunks/helpers.segment.js",
               "name": "./node_modules/chart.js/dist/chunks/helpers.segment.js",
               "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chunks/helpers.segment.js",
-              "index": 7,
-              "preOrderIndex": 7,
-              "index2": 5,
-              "postOrderIndex": 5,
+              "index": 11,
+              "preOrderIndex": 11,
+              "index2": 8,
+              "postOrderIndex": 8,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -1341,6 +1313,11 @@
                 {
                   "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
                   "name": "./src/js/displayData.js",
+                  "id": 334
+                },
+                {
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "name": "./src/js/charts.js",
                   "id": null
                 },
                 {
@@ -9623,7 +9600,7 @@
               "optimizationBailout": [
                 "Statement (VariableDeclaration) with side effects in source code at 17:4-20:5"
               ],
-              "depth": 3
+              "depth": 4
             },
             {
               "type": "module",
@@ -9640,10 +9617,10 @@
               "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/@kurkle/color/dist/color.esm.js",
               "name": "./node_modules/@kurkle/color/dist/color.esm.js",
               "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/@kurkle/color/dist/color.esm.js",
-              "index": 8,
-              "preOrderIndex": 8,
-              "index2": 4,
-              "postOrderIndex": 4,
+              "index": 12,
+              "preOrderIndex": 12,
+              "index2": 7,
+              "postOrderIndex": 7,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -9654,6 +9631,11 @@
                 {
                   "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
                   "name": "./src/js/displayData.js",
+                  "id": 334
+                },
+                {
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+                  "name": "./src/js/charts.js",
                   "id": null
                 },
                 {
@@ -9761,9 +9743,132 @@
               "optimizationBailout": [
                 "Statement (VariableDeclaration) with side effects in source code at 27:0-159"
               ],
-              "depth": 3
+              "depth": 4
             }
           ]
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1659,
+          "sizes": {
+            "javascript": 1659
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
+          "name": "./src/js/convertData.js",
+          "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "issuerName": "./src/js/displayData.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "name": "./src/js/displayData.js",
+              "id": 334
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 631,
+          "issuerId": 334,
+          "chunks": [
+            65
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "module": "./src/js/displayData.js",
+              "moduleName": "./src/js/displayData.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "resolvedModule": "./src/js/displayData.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./convertData",
+              "loc": "7:16-40",
+              "moduleId": 334,
+              "resolvedModuleId": 334
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "convertMiunStatsData"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 11921,
+          "sizes": {
+            "javascript": 11921
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "name": "./src/js/displayData.js",
+          "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 12,
+          "postOrderIndex": 12,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 334,
+          "issuerId": null,
+          "chunks": [
+            65
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "loc": "chart",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
         },
         {
           "type": "module",
@@ -9780,10 +9885,10 @@
           "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/fetchData.js",
           "name": "./src/js/fetchData.js",
           "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/fetchData.js",
-          "index": 9,
-          "preOrderIndex": 9,
-          "index2": 8,
-          "postOrderIndex": 8,
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 4,
+          "postOrderIndex": 4,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -9794,32 +9899,32 @@
             {
               "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "name": "./src/js/displayData.js",
-              "id": null
+              "id": 334
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 112,
-          "issuerId": null,
+          "issuerId": 334,
           "chunks": [
             65
           ],
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-              "module": "./src/js/displayData.js + 4 modules",
-              "moduleName": "./src/js/displayData.js + 4 modules",
+              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "module": "./src/js/displayData.js",
+              "moduleName": "./src/js/displayData.js",
               "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "resolvedModule": "./src/js/displayData.js",
               "type": "cjs require",
               "active": true,
               "explanation": "",
               "userRequest": "./fetchData",
-              "loc": "6:15-37",
-              "moduleId": 685,
-              "resolvedModuleId": null
+              "loc": "5:15-37",
+              "moduleId": 334,
+              "resolvedModuleId": 334
             }
           ],
           "usedExports": true,
@@ -9844,10 +9949,10 @@
           "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/sortData.js",
           "name": "./src/js/sortData.js",
           "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/sortData.js",
-          "index": 11,
-          "preOrderIndex": 11,
-          "index2": 10,
-          "postOrderIndex": 10,
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 6,
+          "postOrderIndex": 6,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -9858,32 +9963,32 @@
             {
               "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "name": "./src/js/displayData.js",
-              "id": null
+              "id": 334
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 482,
-          "issuerId": null,
+          "issuerId": 334,
           "chunks": [
             65
           ],
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-              "module": "./src/js/displayData.js + 4 modules",
-              "moduleName": "./src/js/displayData.js + 4 modules",
+              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "module": "./src/js/displayData.js",
+              "moduleName": "./src/js/displayData.js",
               "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "resolvedModule": "./src/js/displayData.js",
               "type": "cjs require",
               "active": true,
               "explanation": "",
               "userRequest": "./sortData",
-              "loc": "10:16-37",
-              "moduleId": 685,
-              "resolvedModuleId": null
+              "loc": "9:16-37",
+              "moduleId": 334,
+              "resolvedModuleId": 334
             }
           ],
           "usedExports": true,
@@ -10073,30 +10178,34 @@
     },
     {
       "type": "module",
-      "moduleType": "javascript/esm",
+      "moduleType": "javascript/auto",
       "layer": null,
-      "size": 524098,
+      "size": 11921,
       "sizes": {
-        "javascript": 524098
+        "javascript": 11921
       },
       "built": true,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-      "name": "./src/js/displayData.js + 4 modules",
+      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+      "name": "./src/js/displayData.js",
       "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
       "index": 4,
       "preOrderIndex": 4,
-      "index2": 11,
-      "postOrderIndex": 11,
+      "index2": 12,
+      "postOrderIndex": 12,
       "cacheable": true,
       "optional": false,
       "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 685,
+      "id": 334,
+      "issuerId": null,
       "chunks": [
         65
       ],
@@ -10118,49 +10227,432 @@
         }
       ],
       "usedExports": [],
-      "providedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 995,
+      "sizes": {
+        "javascript": 995
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/headerAnimation.js",
+      "name": "./src/js/headerAnimation.js",
+      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/headerAnimation.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+      "issuerName": "./src/js/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 337,
+      "issuerId": 856,
+      "chunks": [
+        23
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+          "module": "./src/js/index.js",
+          "moduleName": "./src/js/index.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+          "resolvedModule": "./src/js/index.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./headerAnimation",
+          "loc": "2:0-28",
+          "moduleId": 856,
+          "resolvedModuleId": 856
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 1:0-45",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2849,
+      "sizes": {
+        "javascript": 2849
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/hamburger.js",
+      "name": "./src/js/hamburger.js",
+      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/hamburger.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+      "issuerName": "./src/js/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 87,
+      "issuerId": 856,
+      "chunks": [
+        23
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+          "module": "./src/js/index.js",
+          "moduleName": "./src/js/index.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
+          "resolvedModule": "./src/js/index.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./hamburger",
+          "loc": "3:0-22",
+          "moduleId": 856,
+          "resolvedModuleId": 856
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 4:0-66",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 10790,
+      "sizes": {
+        "javascript": 10790
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/fetchData.js",
+      "name": "./src/js/fetchData.js",
+      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/fetchData.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+      "issuerName": "./src/js/displayData.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "name": "./src/js/displayData.js",
+          "id": 334
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 112,
+      "issuerId": 334,
+      "chunks": [
+        65
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "module": "./src/js/displayData.js",
+          "moduleName": "./src/js/displayData.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "resolvedModule": "./src/js/displayData.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./fetchData",
+          "loc": "5:15-37",
+          "moduleId": 334,
+          "resolvedModuleId": 334
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "fetchData"
+      ],
       "optimizationBailout": [],
-      "depth": 0,
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1659,
+      "sizes": {
+        "javascript": 1659
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
+      "name": "./src/js/convertData.js",
+      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+      "issuerName": "./src/js/displayData.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "name": "./src/js/displayData.js",
+          "id": 334
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 631,
+      "issuerId": 334,
+      "chunks": [
+        65
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "module": "./src/js/displayData.js",
+          "moduleName": "./src/js/displayData.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "resolvedModule": "./src/js/displayData.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./convertData",
+          "loc": "7:16-40",
+          "moduleId": 334,
+          "resolvedModuleId": 334
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "convertMiunStatsData"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 169,
+      "sizes": {
+        "javascript": 169
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/sortData.js",
+      "name": "./src/js/sortData.js",
+      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/sortData.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+      "issuerName": "./src/js/displayData.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "name": "./src/js/displayData.js",
+          "id": 334
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 482,
+      "issuerId": 334,
+      "chunks": [
+        65
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "module": "./src/js/displayData.js",
+          "moduleName": "./src/js/displayData.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "resolvedModule": "./src/js/displayData.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./sortData",
+          "loc": "9:16-37",
+          "moduleId": 334,
+          "resolvedModuleId": 334
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "sortMiunStatsData"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 514233,
+      "sizes": {
+        "javascript": 514233
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js|efbd22d855a49a568a84f54e8190f723",
+      "name": "./src/js/charts.js + 4 modules",
+      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 11,
+      "postOrderIndex": 11,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 133,
+      "chunks": [
+        65
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "module": "./src/js/displayData.js",
+          "moduleName": "./src/js/displayData.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "resolvedModule": "./src/js/displayData.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./charts",
+          "loc": "11:16-35",
+          "moduleId": 334,
+          "resolvedModuleId": 334
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "createBarChart",
+        "createPieChart"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
       "modules": [
         {
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 13401,
+          "size": 3536,
           "sizes": {
-            "javascript": 13401
+            "javascript": 3536
           },
           "built": true,
           "codeGenerated": false,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "name": "./src/js/displayData.js",
-          "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "index": 4,
-          "preOrderIndex": 4,
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "name": "./src/js/charts.js",
+          "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "index": 8,
+          "preOrderIndex": 8,
           "index2": 11,
           "postOrderIndex": 11,
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
+          "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "issuerName": "./src/js/displayData.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+              "name": "./src/js/displayData.js",
+              "id": 334
+            }
+          ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": null,
-          "issuerId": null,
+          "issuerId": 334,
           "chunks": [],
           "assets": [],
           "reasons": [],
-          "usedExports": [],
-          "providedExports": [],
-          "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 6:0-7:33"
+          "usedExports": true,
+          "providedExports": [
+            "createBarChart",
+            "createPieChart"
           ],
-          "depth": 0
+          "optimizationBailout": [
+            "Dependency (harmony side effect evaluation) with side effects at 1:0-34"
+          ],
+          "depth": 1
         },
         {
           "type": "module",
@@ -10177,19 +10669,24 @@
           "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
           "name": "./node_modules/chart.js/auto/auto.js",
           "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
-          "index": 5,
-          "preOrderIndex": 5,
-          "index2": 7,
-          "postOrderIndex": 7,
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 10,
+          "postOrderIndex": 10,
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "issuerName": "./src/js/displayData.js",
+          "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "issuerName": "./src/js/charts.js",
           "issuerPath": [
             {
               "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "name": "./src/js/displayData.js",
+              "id": 334
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "name": "./src/js/charts.js",
               "id": null
             }
           ],
@@ -10202,30 +10699,44 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "module": "./src/js/displayData.js",
-              "moduleName": "./src/js/displayData.js",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "resolvedModule": "./src/js/displayData.js",
+              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "module": "./src/js/charts.js",
+              "moduleName": "./src/js/charts.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "resolvedModule": "./src/js/charts.js",
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
               "userRequest": "chart.js/auto",
-              "loc": "5:0-34",
+              "loc": "1:0-34",
               "moduleId": null,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "module": "./src/js/displayData.js",
-              "moduleName": "./src/js/displayData.js",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-              "resolvedModule": "./src/js/displayData.js",
+              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "module": "./src/js/charts.js",
+              "moduleName": "./src/js/charts.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "resolvedModule": "./src/js/charts.js",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "chart.js/auto",
-              "loc": "43:6-11",
+              "loc": "28:6-11",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "module": "./src/js/charts.js",
+              "moduleName": "./src/js/charts.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "resolvedModule": "./src/js/charts.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "chart.js/auto",
+              "loc": "84:6-11",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -10286,7 +10797,7 @@
           "optimizationBailout": [
             "Statement (ExpressionStatement) with side effects in source code at 3:0-33"
           ],
-          "depth": 1
+          "depth": 2
         },
         {
           "type": "module",
@@ -10303,10 +10814,10 @@
           "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chart.js",
           "name": "./node_modules/chart.js/dist/chart.js",
           "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chart.js",
-          "index": 6,
-          "preOrderIndex": 6,
-          "index2": 6,
-          "postOrderIndex": 6,
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 9,
+          "postOrderIndex": 9,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -10316,6 +10827,11 @@
             {
               "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "name": "./src/js/displayData.js",
+              "id": 334
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "name": "./src/js/charts.js",
               "id": null
             },
             {
@@ -10473,7 +10989,7 @@
           "optimizationBailout": [
             "Statement (VariableDeclaration) with side effects in source code at 145:0-46"
           ],
-          "depth": 2
+          "depth": 3
         },
         {
           "type": "module",
@@ -10490,10 +11006,10 @@
           "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chunks/helpers.segment.js",
           "name": "./node_modules/chart.js/dist/chunks/helpers.segment.js",
           "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chunks/helpers.segment.js",
-          "index": 7,
-          "preOrderIndex": 7,
-          "index2": 5,
-          "postOrderIndex": 5,
+          "index": 11,
+          "preOrderIndex": 11,
+          "index2": 8,
+          "postOrderIndex": 8,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -10503,6 +11019,11 @@
             {
               "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "name": "./src/js/displayData.js",
+              "id": 334
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "name": "./src/js/charts.js",
               "id": null
             },
             {
@@ -18785,7 +19306,7 @@
           "optimizationBailout": [
             "Statement (VariableDeclaration) with side effects in source code at 17:4-20:5"
           ],
-          "depth": 3
+          "depth": 4
         },
         {
           "type": "module",
@@ -18802,10 +19323,10 @@
           "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/@kurkle/color/dist/color.esm.js",
           "name": "./node_modules/@kurkle/color/dist/color.esm.js",
           "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/@kurkle/color/dist/color.esm.js",
-          "index": 8,
-          "preOrderIndex": 8,
-          "index2": 4,
-          "postOrderIndex": 4,
+          "index": 12,
+          "preOrderIndex": 12,
+          "index2": 7,
+          "postOrderIndex": 7,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -18815,6 +19336,11 @@
             {
               "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
               "name": "./src/js/displayData.js",
+              "id": 334
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+              "name": "./src/js/charts.js",
               "id": null
             },
             {
@@ -18922,452 +19448,9 @@
           "optimizationBailout": [
             "Statement (VariableDeclaration) with side effects in source code at 27:0-159"
           ],
-          "depth": 3
+          "depth": 4
         }
       ]
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 995,
-      "sizes": {
-        "javascript": 995
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/headerAnimation.js",
-      "name": "./src/js/headerAnimation.js",
-      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/headerAnimation.js",
-      "index": 2,
-      "preOrderIndex": 2,
-      "index2": 1,
-      "postOrderIndex": 1,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-      "issuerName": "./src/js/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-          "name": "./src/js/index.js",
-          "id": 856
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 337,
-      "issuerId": 856,
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-          "module": "./src/js/index.js",
-          "moduleName": "./src/js/index.js",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-          "resolvedModule": "./src/js/index.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./headerAnimation",
-          "loc": "2:0-28",
-          "moduleId": 856,
-          "resolvedModuleId": 856
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 1:0-45",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 2849,
-      "sizes": {
-        "javascript": 2849
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/hamburger.js",
-      "name": "./src/js/hamburger.js",
-      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/hamburger.js",
-      "index": 3,
-      "preOrderIndex": 3,
-      "index2": 2,
-      "postOrderIndex": 2,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-      "issuerName": "./src/js/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-          "name": "./src/js/index.js",
-          "id": 856
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 87,
-      "issuerId": 856,
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-          "module": "./src/js/index.js",
-          "moduleName": "./src/js/index.js",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/index.js",
-          "resolvedModule": "./src/js/index.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./hamburger",
-          "loc": "3:0-22",
-          "moduleId": 856,
-          "resolvedModuleId": 856
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 4:0-66",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/esm",
-      "layer": null,
-      "size": 147,
-      "sizes": {
-        "javascript": 147
-      },
-      "built": true,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
-      "name": "./node_modules/chart.js/auto/auto.js",
-      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
-      "index": 5,
-      "preOrderIndex": 5,
-      "index2": 7,
-      "postOrderIndex": 7,
-      "cacheable": true,
-      "optional": false,
-      "orphan": true,
-      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-      "issuerName": "./src/js/displayData.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "name": "./src/js/displayData.js",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": null,
-      "issuerId": null,
-      "chunks": [],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "module": "./src/js/displayData.js",
-          "moduleName": "./src/js/displayData.js",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "resolvedModule": "./src/js/displayData.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "chart.js/auto",
-          "loc": "5:0-34",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "module": "./src/js/displayData.js",
-          "moduleName": "./src/js/displayData.js",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "resolvedModule": "./src/js/displayData.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "chart.js/auto",
-          "loc": "43:6-11",
-          "moduleId": null,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": [
-        "default"
-      ],
-      "providedExports": [
-        "Animation",
-        "Animations",
-        "ArcElement",
-        "BarController",
-        "BarElement",
-        "BasePlatform",
-        "BasicPlatform",
-        "BubbleController",
-        "CategoryScale",
-        "Chart",
-        "Colors",
-        "DatasetController",
-        "Decimation",
-        "DomPlatform",
-        "DoughnutController",
-        "Element",
-        "Filler",
-        "Interaction",
-        "Legend",
-        "LineController",
-        "LineElement",
-        "LinearScale",
-        "LogarithmicScale",
-        "PieController",
-        "PointElement",
-        "PolarAreaController",
-        "RadarController",
-        "RadialLinearScale",
-        "Scale",
-        "ScatterController",
-        "SubTitle",
-        "Ticks",
-        "TimeScale",
-        "TimeSeriesScale",
-        "Title",
-        "Tooltip",
-        "_adapters",
-        "_detectPlatform",
-        "animator",
-        "controllers",
-        "default",
-        "defaults",
-        "elements",
-        "layouts",
-        "plugins",
-        "registerables",
-        "registry",
-        "scales"
-      ],
-      "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 3:0-33"
-      ],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 10790,
-      "sizes": {
-        "javascript": 10790
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/fetchData.js",
-      "name": "./src/js/fetchData.js",
-      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/fetchData.js",
-      "index": 9,
-      "preOrderIndex": 9,
-      "index2": 8,
-      "postOrderIndex": 8,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-      "issuerName": "./src/js/displayData.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "name": "./src/js/displayData.js",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 112,
-      "issuerId": null,
-      "chunks": [
-        65
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-          "module": "./src/js/displayData.js + 4 modules",
-          "moduleName": "./src/js/displayData.js + 4 modules",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "resolvedModule": "./src/js/displayData.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./fetchData",
-          "loc": "6:15-37",
-          "moduleId": 685,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": true,
-      "providedExports": [
-        "fetchData"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 1659,
-      "sizes": {
-        "javascript": 1659
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
-      "name": "./src/js/convertData.js",
-      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/convertData.js",
-      "index": 10,
-      "preOrderIndex": 10,
-      "index2": 9,
-      "postOrderIndex": 9,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-      "issuerName": "./src/js/displayData.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "name": "./src/js/displayData.js",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 631,
-      "issuerId": null,
-      "chunks": [
-        65
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-          "module": "./src/js/displayData.js + 4 modules",
-          "moduleName": "./src/js/displayData.js + 4 modules",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "resolvedModule": "./src/js/displayData.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./convertData",
-          "loc": "8:16-40",
-          "moduleId": 685,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": true,
-      "providedExports": [
-        "convertMiunStatsData"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 169,
-      "sizes": {
-        "javascript": 169
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/sortData.js",
-      "name": "./src/js/sortData.js",
-      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/sortData.js",
-      "index": 11,
-      "preOrderIndex": 11,
-      "index2": 10,
-      "postOrderIndex": 10,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-      "issuerName": "./src/js/displayData.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "name": "./src/js/displayData.js",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 482,
-      "issuerId": null,
-      "chunks": [
-        65
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js|06f975f22c6e691e0fc543d81334af35",
-          "module": "./src/js/displayData.js + 4 modules",
-          "moduleName": "./src/js/displayData.js + 4 modules",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
-          "resolvedModule": "./src/js/displayData.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./sortData",
-          "loc": "10:16-37",
-          "moduleId": 685,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": true,
-      "providedExports": [
-        "sortMiunStatsData"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
     },
     {
       "type": "module",
@@ -19433,9 +19516,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 9340,
+      "size": 9584,
       "sizes": {
-        "css/mini-extract": 9340
+        "css/mini-extract": 9584
       },
       "built": true,
       "codeGenerated": true,
@@ -19500,6 +19583,151 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
+      "size": 147,
+      "sizes": {
+        "javascript": 147
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
+      "name": "./node_modules/chart.js/auto/auto.js",
+      "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/auto/auto.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+      "issuerName": "./src/js/charts.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
+          "name": "./src/js/displayData.js",
+          "id": 334
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "name": "./src/js/charts.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "module": "./src/js/charts.js",
+          "moduleName": "./src/js/charts.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "resolvedModule": "./src/js/charts.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "chart.js/auto",
+          "loc": "1:0-34",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "module": "./src/js/charts.js",
+          "moduleName": "./src/js/charts.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "resolvedModule": "./src/js/charts.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "chart.js/auto",
+          "loc": "28:6-11",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "module": "./src/js/charts.js",
+          "moduleName": "./src/js/charts.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "resolvedModule": "./src/js/charts.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "chart.js/auto",
+          "loc": "84:6-11",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "Animation",
+        "Animations",
+        "ArcElement",
+        "BarController",
+        "BarElement",
+        "BasePlatform",
+        "BasicPlatform",
+        "BubbleController",
+        "CategoryScale",
+        "Chart",
+        "Colors",
+        "DatasetController",
+        "Decimation",
+        "DomPlatform",
+        "DoughnutController",
+        "Element",
+        "Filler",
+        "Interaction",
+        "Legend",
+        "LineController",
+        "LineElement",
+        "LinearScale",
+        "LogarithmicScale",
+        "PieController",
+        "PointElement",
+        "PolarAreaController",
+        "RadarController",
+        "RadialLinearScale",
+        "Scale",
+        "ScatterController",
+        "SubTitle",
+        "Ticks",
+        "TimeScale",
+        "TimeSeriesScale",
+        "Title",
+        "Tooltip",
+        "_adapters",
+        "_detectPlatform",
+        "animator",
+        "controllers",
+        "default",
+        "defaults",
+        "elements",
+        "layouts",
+        "plugins",
+        "registerables",
+        "registry",
+        "scales"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-33"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
       "size": 403117,
       "sizes": {
         "javascript": 403117
@@ -19511,10 +19739,10 @@
       "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chart.js",
       "name": "./node_modules/chart.js/dist/chart.js",
       "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chart.js",
-      "index": 6,
-      "preOrderIndex": 6,
-      "index2": 6,
-      "postOrderIndex": 6,
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 9,
+      "postOrderIndex": 9,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -19524,6 +19752,11 @@
         {
           "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
           "name": "./src/js/displayData.js",
+          "id": 334
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "name": "./src/js/charts.js",
           "id": null
         },
         {
@@ -19681,7 +19914,7 @@
       "optimizationBailout": [
         "Statement (VariableDeclaration) with side effects in source code at 145:0-46"
       ],
-      "depth": 2
+      "depth": 3
     },
     {
       "type": "module",
@@ -19698,10 +19931,10 @@
       "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chunks/helpers.segment.js",
       "name": "./node_modules/chart.js/dist/chunks/helpers.segment.js",
       "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/chart.js/dist/chunks/helpers.segment.js",
-      "index": 7,
-      "preOrderIndex": 7,
-      "index2": 5,
-      "postOrderIndex": 5,
+      "index": 11,
+      "preOrderIndex": 11,
+      "index2": 8,
+      "postOrderIndex": 8,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -19711,6 +19944,11 @@
         {
           "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
           "name": "./src/js/displayData.js",
+          "id": 334
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "name": "./src/js/charts.js",
           "id": null
         },
         {
@@ -27993,7 +28231,7 @@
       "optimizationBailout": [
         "Statement (VariableDeclaration) with side effects in source code at 17:4-20:5"
       ],
-      "depth": 3
+      "depth": 4
     },
     {
       "type": "module",
@@ -28010,10 +28248,10 @@
       "identifier": "javascript/esm|/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/@kurkle/color/dist/color.esm.js",
       "name": "./node_modules/@kurkle/color/dist/color.esm.js",
       "nameForCondition": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/@kurkle/color/dist/color.esm.js",
-      "index": 8,
-      "preOrderIndex": 8,
-      "index2": 4,
-      "postOrderIndex": 4,
+      "index": 12,
+      "preOrderIndex": 12,
+      "index2": 7,
+      "postOrderIndex": 7,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -28023,6 +28261,11 @@
         {
           "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/displayData.js",
           "name": "./src/js/displayData.js",
+          "id": 334
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment3/DT211G-moment3/src/js/charts.js",
+          "name": "./src/js/charts.js",
           "id": null
         },
         {
@@ -28130,15 +28373,15 @@
       "optimizationBailout": [
         "Statement (VariableDeclaration) with side effects in source code at 27:0-159"
       ],
-      "depth": 3
+      "depth": 4
     },
     {
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 9778,
+      "size": 10022,
       "sizes": {
-        "javascript": 9778
+        "javascript": 10022
       },
       "built": true,
       "codeGenerated": true,
@@ -28657,8 +28900,8 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.33c6dfdecf948326cdd7.css",
-          "size": 9341
+          "name": "style/bundle.a714e138f163c8e003c3.css",
+          "size": 9585
         },
         {
           "name": "js/bundle.3cd8b1cfa7a135bc050c.js",
@@ -28666,7 +28909,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 11904,
+      "assetsSize": 12148,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -28681,12 +28924,12 @@
       ],
       "assets": [
         {
-          "name": "js/chart.49e3fd3cceda1b2d38f5.js",
-          "size": 221008
+          "name": "js/chart.95d41c8b3d5542a09de0.js",
+          "size": 221899
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 221008,
+      "assetsSize": 221899,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -28703,8 +28946,8 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.33c6dfdecf948326cdd7.css",
-          "size": 9341
+          "name": "style/bundle.a714e138f163c8e003c3.css",
+          "size": 9585
         },
         {
           "name": "js/bundle.3cd8b1cfa7a135bc050c.js",
@@ -28712,7 +28955,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 11904,
+      "assetsSize": 12148,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -28727,12 +28970,12 @@
       ],
       "assets": [
         {
-          "name": "js/chart.49e3fd3cceda1b2d38f5.js",
-          "size": 221008
+          "name": "js/chart.95d41c8b3d5542a09de0.js",
+          "size": 221899
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 221008,
+      "assetsSize": 221899,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -28757,10 +29000,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "a90762dad3df16e63c6b",
+      "hash": "49667f7a9a6b3eb7e1a8",
       "version": "5.97.1",
-      "time": 6200,
-      "builtAt": 1739211300145,
+      "time": 5431,
+      "builtAt": 1739273289798,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
       "assetsByChunkName": {},
@@ -30963,9 +31206,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2946,
+          "size": 3007,
           "sizes": {
-            "javascript": 1653,
+            "javascript": 1714,
             "runtime": 1293
           },
           "names": [
@@ -30977,7 +31220,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "f847fa75684bc0d9c6ac",
+          "hash": "1a925b47305d363bb95b",
           "childrenByOrder": {},
           "id": 895,
           "siblings": [],
@@ -30988,9 +31231,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1540,
+              "size": 1601,
               "sizes": {
-                "javascript": 1540
+                "javascript": 1601
               },
               "built": true,
               "codeGenerated": true,
@@ -31053,7 +31296,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 4:0-1406"
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-1467"
               ],
               "depth": 0
             },
@@ -31672,9 +31915,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1540,
+          "size": 1601,
           "sizes": {
-            "javascript": 1540
+            "javascript": 1601
           },
           "built": true,
           "codeGenerated": true,
@@ -31736,7 +31979,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 4:0-1406"
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-1467"
           ],
           "depth": 0
         },
