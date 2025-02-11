@@ -77,10 +77,8 @@ export function createBarChart(dataArr, label, barChart) {
           titleFont: {
             size: () => {
               if (window.innerWidth > 610) {
-                console.log("14");
                 return 14;
               } else if (window.innerWidth > 390) {
-                console.log("10");
                 return 12;
               } else {
                 return 10;
@@ -138,10 +136,8 @@ export function createPieChart(dataArr, label, pieChart) {
           titleFont: {
             size: () => {
               if (window.innerWidth > 610) {
-                console.log("14");
                 return 14;
               } else if (window.innerWidth > 390) {
-                console.log("10");
                 return 12;
               } else {
                 return 10;
