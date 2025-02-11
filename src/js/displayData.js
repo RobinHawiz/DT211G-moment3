@@ -94,7 +94,7 @@ function createBarChart(topSixCourses) {
       scales: {
         x: {
           display: () => {
-            return window.innerWidth > 610 ? true : false;
+            return window.innerWidth > 630 ? true : false;
           },
         },
         y: {
