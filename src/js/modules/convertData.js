@@ -1,3 +1,5 @@
+// Note to self: Create @type {{param1: type, param2: type}} data
+
 export function convertMiunStatsData(data) {
   let dataArrCourses = [];
   let dataArrPrograms = [];
