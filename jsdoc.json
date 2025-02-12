@@ -12,6 +12,8 @@
   },
   "opts": {
     "destination": "./jsdoc",
-    "recurse": true
+    "recurse": true,
+    "template": "./template",
+    "readme": "./template/readme.md"
   }
 }
