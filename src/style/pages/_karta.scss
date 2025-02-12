@@ -1,0 +1,28 @@
+@use "../abstracts/variables" as v;
+#karta {
+  max-width: 125rem;
+  margin: 0 auto;
+  text-align: center;
+  h1 {
+    margin-bottom: 5rem;
+  }
+  form {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    input {
+      padding: 1rem;
+      width: 100%;
+      background: none;
+      border: none;
+      color: v.$input-color;
+      border: 0.2rem solid v.$input-color;
+      border-radius: 0.4rem;
+      &:hover {
+        &::placeholder {
+          color: inherit;
+        }
+      }
+    }
+  }
+}

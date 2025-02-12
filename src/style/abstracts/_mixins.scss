@@ -79,4 +79,12 @@
   p {
     color: v.$p-dark-theme-color;
   }
+  #karta {
+    form {
+      input {
+        color: v.$p-dark-theme-color;
+        border: 0.2rem solid v.$input-dark-color;
+      }
+    }
+  }
 }
