@@ -1,7 +1,7 @@
 const { fetchData } = require("./modules/fetchData");
 const { convertMiunStatsData } = require("./modules/convertData");
 const { sortMiunStatsData } = require("./modules/sortData");
-const { createBarChart, createPieChart } = require("./modules/charts");
+const { createBarChart, createPieChart } = require("./modules/createCharts");
 
 // Charts we want to display
 
