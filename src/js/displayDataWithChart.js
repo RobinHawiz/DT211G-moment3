@@ -47,8 +47,4 @@ async function displayDataWithChart(url) {
   createPieChart(topFivePrograms, "Antal sökande", pieChartTopFivePrograms);
 }
 
-async function displayDataWithMap(url) {}
-
-displayDataWithMap();
-
 displayDataWithChart("https://studenter.miun.se/~mallar/dt211g/");
