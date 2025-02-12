@@ -1,8 +1,8 @@
 {
-  "hash": "851f0b33390cdf476ec0",
+  "hash": "dd36da85abd809a7eee5",
   "version": "5.97.1",
-  "time": 8031,
-  "builtAt": 1739293341644,
+  "time": 8461,
+  "builtAt": 1739364597720,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
   "assetsByChunkName": {
@@ -522,9 +522,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 539856,
+      "size": 541079,
       "sizes": {
-        "javascript": 539161,
+        "javascript": 540384,
         "runtime": 695
       },
       "names": [
@@ -538,7 +538,7 @@
         "js/chart.6c9ba0814fed98e8c12d.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "4c6ff8c324eb4d67ecea",
+      "hash": "70823d242f104dfeecbc",
       "childrenByOrder": {},
       "id": 65,
       "siblings": [],
@@ -9445,9 +9445,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1726,
+          "size": 2949,
           "sizes": {
-            "javascript": 1726
+            "javascript": 2949
           },
           "built": true,
           "codeGenerated": true,
@@ -10359,9 +10359,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1726,
+      "size": 2949,
       "sizes": {
-        "javascript": 1726
+        "javascript": 2949
       },
       "built": true,
       "codeGenerated": true,
@@ -28794,8 +28794,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "678fc88c50c242ba0d1e",
       "version": "5.97.1",
-      "time": 5530,
-      "builtAt": 1739293339171,
+      "time": 6023,
+      "builtAt": 1739364595307,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
       "assetsByChunkName": {},
