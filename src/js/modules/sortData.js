@@ -1,5 +1,5 @@
 /**
- * Convert data module
+ * Sort data module
  * @module sortData
  */
 
