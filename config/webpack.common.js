@@ -3,6 +3,7 @@ const pages = populateHtmlPlugins({
   index: ["main"],
   sass: ["main"],
   diagram: ["main", "chart"],
+  karta: ["main", "map"],
 });
 const path = require("path");
 const BundleAnalyzerPlugin =
@@ -12,6 +13,7 @@ module.exports = {
   entry: {
     main: path.resolve(__dirname, "../src/js/index.js"),
     chart: path.resolve(__dirname, "../src/js/displayDataWithChart.js"),
+    map: path.resolve(__dirname, "../src/js/displayDataWithMap.js"),
   },
   output: {
     assetModuleFilename: "img/[name][contenthash][ext][query]",
