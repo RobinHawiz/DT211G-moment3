@@ -1,5 +1,5 @@
 /**
- * @file Displays data in various ways.
+ * @file Displays data in various charts created with the {@link https://www.chartjs.org/|Chart.js} library.
  * @requires module:fetchData
  * @requires module:convertData.convertMiunStatsData
  * @requires module:sortData.sortMiunStatsData
@@ -13,7 +13,7 @@ const { sortMiunStatsData } = require("./modules/sortData");
 const { createBarChart, createPieChart } = require("./modules/createCharts");
 
 /**
- * Displays data in various charts created with the {@link https://www.chartjs.org/|Chart.js} library.
+ * Displays data in various charts.
  * @param {string} url url that links to a (publicly accessible) JSON data source.
  */
 async function displayDataWithChart(url) {
@@ -46,5 +46,9 @@ async function displayDataWithChart(url) {
   createBarChart(topSixCourses, "Antal sökande", barChartTopSixCourses);
   createPieChart(topFivePrograms, "Antal sökande", pieChartTopFivePrograms);
 }
+
+async function displayDataWithMap(url) {}
+
+displayDataWithMap();
 
 displayDataWithChart("https://studenter.miun.se/~mallar/dt211g/");

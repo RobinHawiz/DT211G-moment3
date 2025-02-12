@@ -11,7 +11,7 @@ const BundleAnalyzerPlugin =
 module.exports = {
   entry: {
     main: path.resolve(__dirname, "../src/js/index.js"),
-    chart: path.resolve(__dirname, "../src/js/displayData.js"),
+    chart: path.resolve(__dirname, "../src/js/displayDataWithChart.js"),
   },
   output: {
     assetModuleFilename: "img/[name][contenthash][ext][query]",
