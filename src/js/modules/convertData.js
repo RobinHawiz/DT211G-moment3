@@ -25,7 +25,7 @@
 
 /**
  * Converts MiunData to ConvertedMiunData and separates it into two distinct arrays based on their type (course or program).
- * @param {Array<MiunData>} data see definition for {@link MiunData}.
+ * @param {Array<MiunData>} data see typedef for the MiunData object.
  * @returns {{Array<ConvertedMiunData>, Array<ConvertedMiunData>}} an object consisting of two arrays: the first contains all ConvertedMiunData with the type 'Kurs' (course), and the second contains those with the type 'Program'.
  */
 export function convertMiunStatsData(data) {
