@@ -216,6 +216,10 @@ th {
   display: table-cell;
 }
 
+td.type {
+  color: #fceaff;
+}
+
 thead tr {
   font-weight: bold;
 }
@@ -355,7 +359,7 @@ tr > th:last-child {
 .params .name,
 .props .name,
 .name code {
-  color: #fff;
+  color: #fefedf;
   font-family: Consolas, Monaco, "Andale Mono", monospace;
   font-size: 100%;
 }
