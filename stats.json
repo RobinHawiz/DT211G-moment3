@@ -1,8 +1,8 @@
 {
-  "hash": "3b71f5cf779742415deb",
+  "hash": "589d7c03c9ffa061fa0a",
   "version": "5.97.1",
-  "time": 8133,
-  "builtAt": 1739461990114,
+  "time": 8147,
+  "builtAt": 1739465918166,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
   "assetsByChunkName": {
@@ -11,10 +11,10 @@
       "js/main.3cd8b1cfa7a135bc050c.js"
     ],
     "chart": [
-      "js/chart.3f7d5fe033e267afa8f6.js"
+      "js/chart.c4b0a04bfcfe92c12cdf.js"
     ],
     "map": [
-      "js/map.a77de935456990ffbcc6.js"
+      "js/map.e82037116c392ba0bf6d.js"
     ]
   },
   "assets": [
@@ -104,17 +104,17 @@
     },
     {
       "type": "asset",
-      "name": "js/chart.3f7d5fe033e267afa8f6.js",
-      "size": 169189,
+      "name": "js/chart.c4b0a04bfcfe92c12cdf.js",
+      "size": 169185,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "3f7d5fe033e267afa8f6",
+        "contenthash": "c4b0a04bfcfe92c12cdf",
         "javascriptModule": false,
         "minimized": true,
-        "size": 169189
+        "size": 169185
       },
       "chunkNames": [
         "chart"
@@ -327,17 +327,17 @@
     },
     {
       "type": "asset",
-      "name": "js/map.a77de935456990ffbcc6.js",
-      "size": 16202,
+      "name": "js/map.e82037116c392ba0bf6d.js",
+      "size": 16186,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "a77de935456990ffbcc6",
+        "contenthash": "e82037116c392ba0bf6d",
         "javascriptModule": false,
         "minimized": true,
-        "size": 16202
+        "size": 16186
       },
       "chunkNames": [
         "map"
@@ -571,9 +571,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 543926,
+      "size": 543707,
       "sizes": {
-        "javascript": 543231,
+        "javascript": 543012,
         "runtime": 695
       },
       "names": [
@@ -584,10 +584,10 @@
         "chart"
       ],
       "files": [
-        "js/chart.3f7d5fe033e267afa8f6.js"
+        "js/chart.c4b0a04bfcfe92c12cdf.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "5dcf4b2862ba534a1aa4",
+      "hash": "0a7652bf8e82d88b0b61",
       "childrenByOrder": {},
       "id": 65,
       "siblings": [],
@@ -598,9 +598,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 12853,
+          "size": 12634,
           "sizes": {
-            "javascript": 12853
+            "javascript": 12634
           },
           "built": true,
           "codeGenerated": true,
@@ -9621,7 +9621,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/fetchData",
-              "loc": "5:15-45",
+              "loc": "10:15-45",
               "moduleId": 206,
               "resolvedModuleId": 206
             }
@@ -9821,9 +9821,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 23379,
+      "size": 24293,
       "sizes": {
-        "javascript": 22684,
+        "javascript": 23598,
         "runtime": 695
       },
       "names": [
@@ -9834,10 +9834,10 @@
         "map"
       ],
       "files": [
-        "js/map.a77de935456990ffbcc6.js"
+        "js/map.e82037116c392ba0bf6d.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "b4ea7ff5f90ec09b2845",
+      "hash": "c52df2eb573a5398096f",
       "childrenByOrder": {},
       "id": 163,
       "siblings": [],
@@ -9848,9 +9848,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 11530,
+          "size": 12444,
           "sizes": {
-            "javascript": 11530
+            "javascript": 12444
           },
           "built": true,
           "codeGenerated": true,
@@ -9898,7 +9898,7 @@
           "usedExports": [],
           "providedExports": null,
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33",
+            "Statement (VariableDeclaration) with side effects in source code at 10:0-11:33",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0
@@ -9970,7 +9970,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/fetchData",
-              "loc": "5:15-45",
+              "loc": "10:15-45",
               "moduleId": 206,
               "resolvedModuleId": 206
             }
@@ -10459,9 +10459,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 12853,
+      "size": 12634,
       "sizes": {
-        "javascript": 12853
+        "javascript": 12634
       },
       "built": true,
       "codeGenerated": true,
@@ -10517,9 +10517,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 11530,
+      "size": 12444,
       "sizes": {
-        "javascript": 11530
+        "javascript": 12444
       },
       "built": true,
       "codeGenerated": true,
@@ -10566,7 +10566,7 @@
       "usedExports": [],
       "providedExports": null,
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33",
+        "Statement (VariableDeclaration) with side effects in source code at 10:0-11:33",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 0
@@ -10765,7 +10765,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/fetchData",
-          "loc": "5:15-45",
+          "loc": "10:15-45",
           "moduleId": 206,
           "resolvedModuleId": 206
         }
@@ -29243,12 +29243,12 @@
       ],
       "assets": [
         {
-          "name": "js/chart.3f7d5fe033e267afa8f6.js",
-          "size": 169189
+          "name": "js/chart.c4b0a04bfcfe92c12cdf.js",
+          "size": 169185
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 169189,
+      "assetsSize": 169185,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -29263,12 +29263,12 @@
       ],
       "assets": [
         {
-          "name": "js/map.a77de935456990ffbcc6.js",
-          "size": 16202
+          "name": "js/map.e82037116c392ba0bf6d.js",
+          "size": 16186
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 16202,
+      "assetsSize": 16186,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -29309,12 +29309,12 @@
       ],
       "assets": [
         {
-          "name": "js/chart.3f7d5fe033e267afa8f6.js",
-          "size": 169189
+          "name": "js/chart.c4b0a04bfcfe92c12cdf.js",
+          "size": 169185
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 169189,
+      "assetsSize": 169185,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -29329,12 +29329,12 @@
       ],
       "assets": [
         {
-          "name": "js/map.a77de935456990ffbcc6.js",
-          "size": 16202
+          "name": "js/map.e82037116c392ba0bf6d.js",
+          "size": 16186
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 16202,
+      "assetsSize": 16186,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -29361,8 +29361,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "43a2a0227bc23e6a7865",
       "version": "5.97.1",
-      "time": 5527,
-      "builtAt": 1739461987535,
+      "time": 5518,
+      "builtAt": 1739465915566,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment3/DT211G-moment3/dist",
       "assetsByChunkName": {},
@@ -29894,20 +29894,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
+              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
-                  "id": 406
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 406,
+              "issuerId": 355,
               "chunks": [
                 418,
                 503,
@@ -31235,20 +31235,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
+              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
-                  "id": 406
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 406,
+              "issuerId": 355,
               "chunks": [
                 418,
                 503,
@@ -31742,20 +31742,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
+              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
-                  "id": 406
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 406,
+              "issuerId": 355,
               "chunks": [
                 418,
                 503,
@@ -32249,20 +32249,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
+              "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
-                  "id": 406
+                  "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 406,
+              "issuerId": 355,
               "chunks": [
                 418,
                 503,
@@ -33048,20 +33048,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
+          "issuer": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/sass/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/sass/index.html",
-              "id": 406
+              "identifier": "/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-moment3/DT211G-moment3/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-moment3/DT211G-moment3/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 406,
+          "issuerId": 355,
           "chunks": [
             418,
             503,
