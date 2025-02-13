@@ -6,7 +6,11 @@
   box-sizing: border-box;
 }
 
-html.overflow-hidden,
+html.overflow-hidden {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
 body.overflow-hidden {
   overflow: hidden;
 }
