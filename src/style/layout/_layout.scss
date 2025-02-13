@@ -11,7 +11,8 @@ html.overflow-hidden {
   overflow-y: visible;
 }
 
-body.overflow-hidden {
+body.overflow-hidden,
+html.disable-nav-scrolling {
   overflow: hidden;
 }
 

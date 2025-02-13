@@ -1,3 +1,4 @@
+const html = document.querySelector("html");
 const jeMappelle = document.querySelector(".je-mappelle-hamburger");
 const nav = document.querySelector("nav");
 const navLinks = nav.querySelector("ul");
@@ -18,6 +19,7 @@ jeMappelle.addEventListener("click", () => {
   }
   nav.classList.toggle("toggle");
   logo.classList.toggle("nav-opened");
+  html.classList.toggle("disable-nav-scrolling");
   /*
   Before setting display: none to the ul, we need to wait until the nav is closed. 
   Otherwise the links will disappear before the nav is closed, which looks weird.
