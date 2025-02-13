@@ -11,27 +11,26 @@ const { fetchData } = require("./modules/fetchData");
 const { convertMiunStatsData } = require("./modules/convertData");
 const { sortMiunStatsData } = require("./modules/sortData");
 const { createBarChart, createPieChart } = require("./modules/createCharts");
+/**
+ * HTML canvas element where a bar chart will be rendered.
+ * @type {HTMLElement}
+ */
+const barChartTopSixCourses = document.getElementById(
+  "top-six-courses-bar-chart"
+);
+/**
+ * HTML canvas element where a pie chart will be rendered.
+ * @type {HTMLElement}
+ */
+const pieChartTopFivePrograms = document.getElementById(
+  "top-five-programs-pie-chart"
+);
 
 /**
  * Displays data in various charts.
  * @param {string} url url that links to a (publicly accessible) JSON data source.
  */
 async function displayDataWithChart(url) {
-  // HTML elements that will be used to render the charts.
-  /**
-   * HTML canvas element where a bar chart will be rendered.
-   * @type {HTMLElement}
-   */
-  const barChartTopSixCourses = document.getElementById(
-    "top-six-courses-bar-chart"
-  );
-  /**
-   * HTML canvas element where a pie chart will be rendered.
-   * @type {HTMLElement}
-   */
-  const pieChartTopFivePrograms = document.getElementById(
-    "top-five-programs-pie-chart"
-  );
   // Get data
   const dataObj = await fetchData(url);
   // Seperate data (by type)
