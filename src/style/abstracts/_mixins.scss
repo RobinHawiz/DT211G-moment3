@@ -72,6 +72,16 @@
     }
   }
 
+  button[type="submit"] {
+    color: v.$dark-color;
+    background-color: v.$light-color;
+    border: 0.2rem solid v.$light-color;
+    &:hover {
+      color: v.$light-color;
+      background-color: v.$dark-color;
+    }
+  }
+
   h1,
   h2,
   p {

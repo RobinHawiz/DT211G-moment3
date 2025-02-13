@@ -2,6 +2,8 @@
 @use "../abstracts/mixins" as m;
 @use "sass:color";
 
+// Header
+
 header {
   h1 {
     a {
@@ -12,16 +14,6 @@ header {
     &.nav-opened {
       a {
         color: v.$light-color;
-      }
-    }
-  }
-  button.je-mappelle-hamburger {
-    background: none;
-    border: none;
-    .line {
-      background-color: v.$dark-color;
-      &.toggle {
-        background-color: v.$light-color;
       }
     }
   }
@@ -37,6 +29,35 @@ nav {
     }
   }
 }
+
+// Components
+
+button.je-mappelle-hamburger {
+  background: none;
+  border: none;
+  .line {
+    background-color: v.$dark-color;
+    &.toggle {
+      background-color: v.$light-color;
+    }
+  }
+}
+
+button[type="submit"] {
+  background: none;
+  border: none;
+  color: v.$light-color;
+  background-color: v.$dark-color;
+  border: 0.2rem solid v.$dark-color;
+  border-radius: 0.4rem;
+  &:hover {
+    color: v.$dark-color;
+    background-color: v.$light-color;
+  }
+}
+
+// Pages
+
 #homepage {
   #hero {
     h2 {
@@ -51,6 +72,7 @@ nav {
       border: none;
       color: v.$dark-color;
       border: 0.2rem solid v.$dark-color;
+      border-radius: 0.4rem;
       &:hover {
         &::placeholder {
           color: inherit;

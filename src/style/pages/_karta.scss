@@ -1,3 +1,5 @@
+@use "../abstracts/mixins" as m;
+
 #karta {
   max-width: 125rem;
   margin: 0 auto;
@@ -6,13 +8,14 @@
     margin-bottom: 5rem;
   }
   form {
+    @include m.flex(normal, normal, row);
+    gap: 1rem;
     max-width: 52rem;
     margin: 0 auto;
     padding: 0 1rem;
     input {
       padding: 1rem;
       width: 100%;
-      border-radius: 0.4rem;
     }
   }
 }

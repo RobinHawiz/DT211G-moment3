@@ -32,6 +32,10 @@ input {
   font-size: v.$p-font;
 }
 
+button {
+  font-size: v.$p-font;
+}
+
 p {
   font-size: v.$p-font;
   @include m.media-query(mobile) {
