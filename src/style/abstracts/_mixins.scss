@@ -40,50 +40,48 @@
 }
 
 @mixin dark-mode {
-  background-color: v.$background-dark-theme-color;
+  background-color: v.$dark-color;
   header {
     h1 {
       a {
-        color: v.$header-dark-theme-color;
+        color: v.$light-color;
       }
       &.nav-opened {
         a {
-          color: v.$header-color;
+          color: v.$dark-color;
         }
       }
     }
     button.je-mappelle-hamburger {
       .line {
-        background-color: v.$header-dark-theme-color;
+        background-color: v.$light-color;
         &.toggle {
-          background-color: v.$header-color;
+          background-color: v.$dark-color;
         }
       }
     }
   }
 
   nav {
-    background-color: v.$light-background-color;
+    background-color: v.$light-color;
     a {
-      color: v.$header-color;
+      color: v.$dark-color;
       &:hover {
-        color: color.change(v.$header-color, $lightness: 60%);
+        color: color.change(v.$dark-color, $lightness: 60%);
       }
     }
   }
 
   h1,
-  h2 {
-    color: v.$h1-dark-theme-color;
-  }
+  h2,
   p {
-    color: v.$p-dark-theme-color;
+    color: v.$light-color;
   }
   #karta {
     form {
       input {
-        color: v.$p-dark-theme-color;
-        border: 0.2rem solid v.$input-dark-color;
+        color: v.$light-color;
+        border: 0.2rem solid v.$light-color;
       }
     }
   }
